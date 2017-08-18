@@ -78,7 +78,7 @@ public class Q1002 {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         in.nextLine();
-        TreeMap<String, Integer> buf = new TreeMap<>();
+        TreeMap<String, Integer> buf = new TreeMap<String, Integer>();
         while (n-- > 0) {
             String str = in.nextLine();
             String key = toPhoneNumber(str);
